@@ -1,0 +1,33 @@
+body{
+  background-color: #8B4513;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+      width : 50%;
+      margin : auto;
+      padding : 1em;
+      height : 50%;
+  }
+
+}
+.header{
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.viewAdd, .viewView {
+  border-radius: 1.2em;
+  border: 3px solid white;
+  background-color: lightgrey;
+  font-size: 1.2em;
+  padding: 8px;
+  margin: 5px;
+}
+.buttonsDiv {
+float: left;
+}
