@@ -2,14 +2,14 @@ body{
   background-color: #8B4513;
 }
 * {
-  margin: 0;
+  /*margin: 0;*/
   padding: 0;
 }
 
 .container {
       width : 50%;
       margin : auto;
-      padding : 1em;
+      /*padding : 1em;*/
       height : 50%;
   }
 
@@ -29,5 +29,25 @@ body{
   margin: 5px;
 }
 .buttonsDiv {
-float: left;
+/*float: left;*/
+/*clear: left;*/
+margin-bottom: 100px;
 }
+.addRecipeDiv{
+  background-color: lightgrey;
+  width: 500px;
+  height: 400px;
+  padding: 25px;
+}
+.adding{
+  text-align: center;
+  background-color:#8B4513;
+  border: 2px solid white;
+  width: 400px;
+  height: 300px;
+  padding: 40px;
+}
+/*div {
+width: auto;
+height: auto;
+}*/
