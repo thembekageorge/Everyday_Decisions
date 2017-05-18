@@ -2,14 +2,12 @@ body{
   background-color: #8B4513;
 }
 * {
-  /*margin: 0;*/
   padding: 0;
 }
 
 .container {
       width : 50%;
       margin : auto;
-      /*padding : 1em;*/
       height : 50%;
   }
 
@@ -20,7 +18,7 @@ body{
   max-width: 100%;
 }
 
-.viewAdd, .viewView {
+.viewAdd, .viewView, .FinalAdd {
   border-radius: 1.2em;
   border: 3px solid white;
   background-color: lightgrey;
@@ -29,8 +27,6 @@ body{
   margin: 5px;
 }
 .buttonsDiv {
-/*float: left;*/
-/*clear: left;*/
 margin-bottom: 100px;
 }
 .addRecipeDiv{
@@ -38,10 +34,23 @@ margin-bottom: 100px;
   width: 500px;
   height: 400px;
   padding: 25px;
+  display: none;
 }
 .adding{
   text-align: center;
   background-color:#8B4513;
   border: 2px solid white;
   height: 400px;
+}
+.field {
+    padding : 0.25em;
+}
+
+.field label {
+    display: inline-block;
+    width : auto;
+    text-align: right;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
 }
