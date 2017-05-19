@@ -57,6 +57,7 @@ margin-bottom: 100px;
     padding: 5px;
     margin: 5px;
 }
-table , ths {
+table , th, tr
+ {
   border: 2px solid black;
 }
