@@ -50,17 +50,18 @@
 
     function display(data) {
 
-        var recipeTitle = [];
-        var recipeIngredients = [];
-        var recipeServe = [];
-        var recipeInstructions = [];
+        var recipesTitle = [];
+        var recipesIngredients = [];
+        var recipesServe = [];
+        var recipesInstructions = [];
 
         for (var i = 0; i < data.length; i++) {
             var recipesData = data[i];
-
+             recipesTitle.push(recipesData.recipesTitle);
+             recipesIngredients.push(recipesData.recipeIngredients);
+             recipesServe.push(recipesData.recipeServe);
+             recipesInstructions.push(recipesData.recipeInstructions);
         }
-
-
         recipesElement.innerHTML = addRecipeTemplate({
             recipes: recipesData
         });
@@ -94,13 +95,15 @@ viewAddDivButton.addEventListener('click', function() {
         var recipeIngredientsValue = recipeIngredients.value;
         var recipeServeValue = recipeServe.value;
         var recipeInstructionsValue = recipeInstructions.value;
-
-
+   console.log(recipeTitleValue);
+    console.log(recipeIngredientsValue);
+     console.log(recipeServeValue);
+      console.log(recipeInstructionsValue);
         if (recipeTitleValue !== ''
             && recipeIngredientsValue !== ''
             && recipeServeValue !== ''
             && recipeInstructionsValue !== '') {
-            boots.push({
+            recipes.push({
               recipeTitle : recipeTitleValue,
               recipeIngredients :recipeIngredientsValue,
               recipeServe : recipeServeValue,
@@ -108,7 +111,7 @@ viewAddDivButton.addEventListener('click', function() {
             });
 
         }
-
+        alert(recipes);
         display(recipes);
 
         recipeTitle.value = "";
