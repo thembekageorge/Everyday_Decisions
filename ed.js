@@ -26,13 +26,13 @@
                         // '65 ml (¼ C) sunflower oil' +
                         //    '1 green pepper, seeds removed, chopped' +
                         //   '1 red onion, chopped'+
-                        //   '1 x 240 g Rhodes Tomato Puree Cup' +
-                        //   '125 ml (½ C) vinegar' +
-                        //   '15 – 30 ml (1 – 2 T) curry powder' +
-                        //   '5 ml (1 t) ground turmeric' +
-                        //   '125 ml (½ C) Rhodes Apricot Jam Superfine' +
-                        //   'salt and freshly ground black pepper'+
-                        //   '65 ml (¼ C) chopped parsley',
+                        //   // '1 x 240 g Rhodes Tomato Puree Cup' +
+                        //   // '125 ml (½ C) vinegar' +
+                        //   // '15 – 30 ml (1 – 2 T) curry powder' +
+                        //   // '5 ml (1 t) ground turmeric' +
+                        //   // '125 ml (½ C) Rhodes Apricot Jam Superfine' +
+                        //   // 'salt and freshly ground black pepper'+
+                        //   // '65 ml (¼ C) chopped parsley',
     recipeServe : 6,
     recipeInstructions :              'Cook the pasta screws as per the packet instructions and set aside to cool'
                                       // + 'Heat the half of the oil in a medium saucepan.'
@@ -63,9 +63,10 @@
         }
 
         recipesElement.innerHTML = addRecipeTemplate({
-            recipes : data
+           recipes : data
         });
-console.log();
+
+       console.log(recipes);
 }
 
 viewAddDivButton.addEventListener('click', function() {

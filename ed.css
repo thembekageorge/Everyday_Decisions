@@ -57,7 +57,28 @@ margin-bottom: 100px;
     padding: 5px;
     margin: 5px;
 }
-table , th, tr
- {
-  border: 2px solid black;
+table {
+    width : 50%;
+    border: 2px solid black;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+}
+
+tr {
+  background-color: white}
+
+th {
+    background-color: yellow;
+    color: black;
 }
