@@ -22,9 +22,9 @@
 
     var recipes = [{
     recipeTitle : 'Curry Pasta Salad',
-    recipeIngredients : '500 g pasta screws 65 ml (¼ C) sunflower oil 1 green pepper, seeds removed, chopped 1 red onion, choppe 1 x 240 g Rhodes Tomato Puree Cup 125 ml (½ C) vinegar 15 – 30 ml (1 – 2 T) curry powder 5 ml (1 t) ground turmeric 125 ml (½ C) Rhodes Apricot Jam Superfine salt and freshly ground black pepper 65 ml (¼ C) chopped parsley',
+    recipeIngredients : '500 g pasta screws 65 ml, (¼ C) sunflower oil, 1 green pepper, seeds removed, chopped 1 red onion, chopped 1 x 240 g Rhodes Tomato, Puree Cup 125 ml (½ C), vinegar 15 – 30 ml (1 – 2 T), curry powder 5 ml, (1 t) ground turmeric 125 ml, (½ C) Rhodes Apricot Jam, Superfine salt and freshly ground black pepper 65 ml, (¼ C) chopped parsley',
     recipeServe : 6,
-    recipeInstructions : 'Cook the pasta screws as per the packet instructions and set aside to coolHeat the half of the oil in a medium saucepan.Add the green pepper and the onion and fry until softened but not browned.Lower the heat and add the Rhodes Tomato Puree Cup, remaining oil and vinegar.Bring to the boil.Add the curry powder, tumeric and the Rhodes Apricot Jam Superfine.Whisk well to mix and continue to cook over a low heat for 5 minutes.Season to taste with the salt and freshly ground black pepper.Pour the curry sauce over the noodles and toss to mix.Add the parsley.Chill until serving.'
+    recipeInstructions : 'Cook the pasta screws as per the packet instructions and set aside to cool. Heat the half of the oil in a medium saucepan.Add the green pepper and the onion and fry until softened but not browned.Lower the heat and add the Rhodes Tomato Puree Cup, remaining oil and vinegar.Bring to the boil.Add the curry powder, tumeric and the Rhodes Apricot Jam Superfine.Whisk well to mix and continue to cook over a low heat for 5 minutes.Season to taste with the salt and freshly ground black pepper.Pour the curry sauce over the noodles and toss to mix.Add the parsley.Chill until serving.'
     }];
 
     function display(data) {
