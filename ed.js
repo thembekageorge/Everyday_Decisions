@@ -46,7 +46,6 @@
            recipes : data
         });
 
-       console.log(recipes);
 }
 
 viewAddDivButton.addEventListener('click', function() {
@@ -74,6 +73,7 @@ viewAddDivButton.addEventListener('click', function() {
     });
 
     addButton.addEventListener('click', function() {
+
         var recipeTitleValue = recipeTitle.value;
         var recipeIngredientsValue = recipeIngredients.value;
         var recipeServeValue = recipeServe.value;
